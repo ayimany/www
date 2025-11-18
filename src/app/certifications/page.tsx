@@ -80,26 +80,29 @@ export default function CertificationsPage() {
     const certificationsData: Certification[] = [
         {
             title: 'Six Sigma Green Belt',
-            image: 'https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/166144976',
+            image: '/pictures/ssgb-certificate.jpg',
             issuer: 'Institude of Industrial and Systems Engineers (IISE)',
-            issueDate: 'November 10, 2025',
+            issueDate: 'November 2025',
             expirationDate: 'November 18, 2028',
-            description: 'An individual that possesses a thorough understanding of enhanced problem-solving skills, with an emphasis on the DMAIC (Define, Measure, Analyze, Improve and Control) model. The Green Belt Certification designation also reflects the knowledge by the individual to serve as a trained team member within his or her function-specific area of the organization.',
+            description: 'Recognized as an individual that possesses a thorough understanding of enhanced problem-solving skills, with an emphasis on the DMAIC (Define, Measure, Analyze, Improve and Control) model. The Green Belt Certification designation also reflects the knowledge by the individual to serve as a trained team member within his or her function-specific area of the organization.',
             skills: ['Six Sigma', 'DMAIC', 'Performance Improvement', 'Operational Excellence', 'Control Charts', 'Process Control']
         },
         {
-            title: 'Certificate of Participation: Modeling Ancestry in Admixed Human Populations',
-            image: 'https://www.ucsd.edu/_resources/img/logo_UCSD.png',
-            issuer: 'UCSD',
-            issueDate: 'August 11, 2023',
+            title: 'Certificate of participation - HackMTY',
+            image: '/pictures/hackmty-certificate.jpg',
+            issuer: 'TecACM & Major League Hacking (MLH)',
+            issueDate: 'November 2025',
             expirationDate: null,
-            description: 'Developed file a format validator for complex .HAP files. Modelled a tree-based model to speed up haplotype file transformation operations.',
+            description: 'A certification for the skills, time and effort that were put into developing novel and high-performing solutions in Latin America\'s biggest hackathon',
             skills: [
-                'Research & Development (R&D)',
-                'Genomics',
-                'UCSD',
-                'Computer System Validation',
-                'Algorithm Design'
+                'Teamwork',
+                'Quick prototyping',
+                'Software Requirements',
+                'MVP Development',
+                'Web UI Development',
+                'Mobile UI Development',
+                'Database management',
+                'API Design',
             ]
         },
         {
@@ -118,6 +121,33 @@ export default function CertificationsPage() {
                 'Leadership',
                 'Professional Mentoring',
                 'Educational Leadership'
+            ]
+        },
+        {
+            title: 'Webinar - Development of Prothesis and Prosthetic Parts',
+            image: '/pictures/p4h-bionics-logo.jpg',
+            issuer: 'P4H Bionics',
+            issueDate: 'May 2025',
+            expirationDate: null,
+            description: 'Attended a high-value prosthetics and biomimetics workflow course in which I was taught how professionals approach the intersection between biology and robotics to provide aids or improvements to the human body.',
+            skills: [
+                'Prosthetics Design Workflow',
+                'Interpretation of Biomimetic data',
+            ]
+        },
+        {
+            title: 'Certificate of Participation: Modeling Ancestry in Admixed Human Populations',
+            image: 'https://www.ucsd.edu/_resources/img/logo_UCSD.png',
+            issuer: 'UCSD',
+            issueDate: 'August 2023',
+            expirationDate: null,
+            description: 'Developed file a format validator for complex .HAP files. Modelled a tree-based model to speed up haplotype file transformation operations.',
+            skills: [
+                'Research & Development (R&D)',
+                'Genomics',
+                'UCSD',
+                'Computer System Validation',
+                'Algorithm Design'
             ]
         },
         {
