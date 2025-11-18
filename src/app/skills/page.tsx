@@ -180,7 +180,7 @@ export default function SkillsPage() {
         ],
         futureSkillsLearn: [
             { name: 'Go', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg' },
-            { name: 'Docker', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg' },
+            { name: 'Docker', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
             { name: 'Kubernetes', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg' },
             { name: 'TensorFlow', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg' },
             { name: 'WebAssembly', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wasm/wasm-original.svg' },

@@ -4,9 +4,10 @@ export default function Navbar() {
     const navItems: NavItem[] = [
         { name: 'About Me', redirect: '/'},
         { name: 'Skills', redirect: '/skills'},
-        { name: 'Competitions', redirect: '/competitions'},
+        { name: 'Experience', redirect: '/experience'},
         { name: 'Projects', redirect: '/projects'},
         { name: 'Certifications', redirect: '/certifications'},
+        { name: 'Resources', redirect: '/resources'},
     ];
 
     return (
